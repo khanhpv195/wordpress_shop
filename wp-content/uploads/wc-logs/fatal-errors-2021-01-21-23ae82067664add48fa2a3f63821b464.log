@@ -1,0 +1,56 @@
+2021-01-21T09:44:27+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in C:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\class-woocommerce.php:605
+Stack trace:
+#0 C:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\class-woocommerce.php(573): WooCommerce->load_plugin_textdomain()
+#1 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\wp-settings.php(463): do_action('init')
+#5 C:\xampp\htdocs\wp\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wp\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wp\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 605
+
+2021-01-21T09:44:51+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in C:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\class-woocommerce.php:605
+Stack trace:
+#0 C:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\class-woocommerce.php(573): WooCommerce->load_plugin_textdomain()
+#1 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\wp-settings.php(463): do_action('init')
+#5 C:\xampp\htdocs\wp\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wp\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wp\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 605
+
+2021-01-21T09:45:21+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in C:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\class-woocommerce.php:605
+Stack trace:
+#0 C:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\class-woocommerce.php(573): WooCommerce->load_plugin_textdomain()
+#1 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\wp-settings.php(463): do_action('init')
+#5 C:\xampp\htdocs\wp\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wp\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wp\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 605
+
+2021-01-21T09:47:30+00:00 CRITICAL Uncaught Error: Call to undefined function determine_locale() in C:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\class-woocommerce.php:605
+Stack trace:
+#0 C:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\class-woocommerce.php(573): WooCommerce->load_plugin_textdomain()
+#1 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#2 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\wp-settings.php(464): do_action('init')
+#5 C:\xampp\htdocs\wp\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wp\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wp\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wp\wp-content\plugins\woocommerce\includes\class-woocommerce.php on line 605
+
