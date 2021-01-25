@@ -126,14 +126,13 @@ class CKWPPExamplePlugin
                                             terms.push({id: id, text: text});
                                         });
                                     }
-                                    data = terms;
+
                                     return {results: terms};
                                 }, cache: true
                             }
                         });
-                        console.log(data)
                         $('.show-selected-results').on('click', function () {
-                            var data = $('.bc-product-search').text();
+                            var data = $('.bc-product-search').value();
                             console.log(data);
                         });
 

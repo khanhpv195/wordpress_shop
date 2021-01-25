@@ -1,0 +1,82 @@
+2021-01-25T08:09:42+00:00 CRITICAL Uncaught Error: Call to undefined method WF_Product_Import_Export_CSV::do_export() in C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\includes\exporter\class-wf-prodimpexpcsv-exporter.php:28
+Stack trace:
+#0 C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\product-import-export-for-woo.php(136): include_once()
+#1 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(287): WF_Product_Import_Export_CSV->catch_export_request('')
+#2 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\wp-settings.php(557): do_action('init')
+#5 C:\xampp\htdocs\wp\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wp\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\includes\exporter\class-wf-prodimpexpcsv-exporter.php on line 28
+
+2021-01-25T08:09:55+00:00 CRITICAL Uncaught Error: Call to undefined method WF_Product_Import_Export_CSV::do_export() in C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\includes\exporter\class-wf-prodimpexpcsv-exporter.php:28
+Stack trace:
+#0 C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\product-import-export-for-woo.php(136): include_once()
+#1 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(287): WF_Product_Import_Export_CSV->catch_export_request('')
+#2 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\wp-settings.php(557): do_action('init')
+#5 C:\xampp\htdocs\wp\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wp\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\includes\exporter\class-wf-prodimpexpcsv-exporter.php on line 28
+
+2021-01-25T08:34:27+00:00 CRITICAL Uncaught Error: Call to undefined method WF_ProdImpExpCsv_Exporter::get_all_metakeys() in C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\includes\exporter\class-wf-prodimpexpcsv-exporter.php:69
+Stack trace:
+#0 C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\product-import-export-for-woo.php(137): WF_ProdImpExpCsv_Exporter::do_export('product')
+#1 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(287): WF_Product_Import_Export_CSV->catch_export_request('')
+#2 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\wp-settings.php(557): do_action('init')
+#5 C:\xampp\htdocs\wp\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wp\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\includes\exporter\class-wf-prodimpexpcsv-exporter.php on line 69
+
+2021-01-25T08:34:56+00:00 CRITICAL Uncaught Error: Call to undefined method WF_ProdImpExpCsv_Exporter::get_all_metakeys() in C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\includes\exporter\class-wf-prodimpexpcsv-exporter.php:69
+Stack trace:
+#0 C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\product-import-export-for-woo.php(137): WF_ProdImpExpCsv_Exporter::do_export('product')
+#1 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(287): WF_Product_Import_Export_CSV->catch_export_request('')
+#2 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\wp-settings.php(557): do_action('init')
+#5 C:\xampp\htdocs\wp\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wp\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\includes\exporter\class-wf-prodimpexpcsv-exporter.php on line 69
+
+2021-01-25T08:47:24+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\includes\exporter\class-wf-prodimpexpcsv-exporter.php:59
+Stack trace:
+#0 C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\product-import-export-for-woo.php(137): WF_ProdImpExpCsv_Exporter::do_export('product')
+#1 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(287): WF_Product_Import_Export_CSV->catch_export_request('')
+#2 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\wp-settings.php(557): do_action('init')
+#5 C:\xampp\htdocs\wp\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wp\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\includes\exporter\class-wf-prodimpexpcsv-exporter.php on line 59
+
+2021-01-25T09:28:21+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\includes\exporter\class-wf-prodimpexpcsv-exporter.php on line 70
+
+2021-01-25T09:28:27+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\includes\exporter\class-wf-prodimpexpcsv-exporter.php on line 70
+
+2021-01-25T09:28:35+00:00 CRITICAL Uncaught Error: Call to undefined method WF_ProdImpExpCsv_Exporter::format_export_meta() in C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\includes\exporter\class-wf-prodimpexpcsv-exporter.php:68
+Stack trace:
+#0 C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\product-import-export-for-woo.php(137): WF_ProdImpExpCsv_Exporter::do_export('product')
+#1 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(287): WF_Product_Import_Export_CSV->catch_export_request('')
+#2 C:\xampp\htdocs\wp\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp\wp-settings.php(557): do_action('init')
+#5 C:\xampp\htdocs\wp\wp-config.php(89): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wp\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wp\wp-content\plugins\product-import-export-for-woo\includes\exporter\class-wf-prodimpexpcsv-exporter.php on line 68
+
