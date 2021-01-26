@@ -20,16 +20,16 @@
 
 // ** Thiết lập MySQL - Bạn có thể lấy các thông tin này từ host/server ** //
 /** Tên database MySQL */
-define( 'DB_NAME', 'wp' );
+define( 'DB_NAME', 'wordpress_black' );
 
 /** Username của database */
 define( 'DB_USER', 'root' );
 
 /** Mật khẩu của database */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'ae6c8ec90274df576' );
 
 /** Hostname của database */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', '45.122.222.53' );
 
 /** Database charset sử dụng để tạo bảng database. */
 define( 'DB_CHARSET', 'utf8mb4' );
