@@ -1,15 +1,11 @@
 <?php
 /*
-  Plugin Name: Product CSV Import Export (BASIC)
-  Plugin URI: https://wordpress.org/plugins/product-import-export-for-woo/
+  Plugin Name: Export product to pdf
+  Plugin URI: http://thuematbang24h.com
   Description: Import and Export Products From and To your WooCommerce Store.
-  Author: WebToffee
-  Author URI: https://www.webtoffee.com/product/product-import-export-woocommerce/
-  Version: 1.8.7
-  WC tested up to: 4.8.0
-  License:           GPLv3
-  License URI:       https://www.gnu.org/licenses/gpl-3.0.html
-  Text Domain: product-import-export-for-woo
+  Author: Khanhpv
+  Author URI: http://thuematbang24h.com
+  Version: 1.0
  */
 
 if ( !defined( 'ABSPATH' ) || !is_admin() ) {

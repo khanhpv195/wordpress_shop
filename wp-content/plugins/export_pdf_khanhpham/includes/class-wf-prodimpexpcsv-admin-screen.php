@@ -31,7 +31,7 @@ class WF_ProdImpExpCsv_Admin_Screen {
      * Admin Menu
      */
     public function admin_menu() {
-        $page1 = add_submenu_page('edit.php?post_type=product', __('Product Im-Ex', 'product-import-export-for-woo'), __('Product Im-Ex', 'product-import-export-for-woo'), apply_filters('woocommerce_csv_product_role', 'manage_woocommerce'), 'wf_woocommerce_csv_im_ex', array($this, 'output'));
+        $page1 = add_submenu_page('edit.php?post_type=product', __('Export Menu KhanhPham', 'product-import-export-for-woo'), __('Export Menu Khanh Pham', 'product-import-export-for-woo'), apply_filters('woocommerce_csv_product_role', 'manage_woocommerce'), 'wf_woocommerce_csv_im_ex', array($this, 'output'));
         $page = add_submenu_page('woocommerce', __('Product Import-Export', 'product-import-export-for-woo'), __('Product Import-Export', 'product-import-export-for-woo'), apply_filters('woocommerce_csv_product_role', 'manage_woocommerce'), 'wf_woocommerce_csv_im_ex', array($this, 'output'));
         
     }
